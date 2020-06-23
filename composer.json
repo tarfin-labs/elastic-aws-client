@@ -1,0 +1,67 @@
+{
+  "name": "tarfin-labs/elastic-aws-client",
+  "description": "The official PHP Elasticsearch AWS client integrated with Laravel",
+  "keywords": [
+      "laravel",
+      "aws",
+      "elastic",
+      "elasticsearch",
+      "client",
+      "php"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Turan Karatuğ",
+          "email": "turan.karatug@tarfin.com",
+          "role": "Developer"
+      },
+      {
+          "name": "Faruk Can",
+          "email": "faruk.can@tarfin.com",
+          "role": "Developer"
+      },
+      {
+          "name": "Yunus Emre Deligöz",
+          "email": "emre.deligoz@tarfin.com",
+          "role": "Developer"
+      },
+      {
+          "name": "Hakan Özdemir",
+          "email": "hakan.ozdemir@tarfin.com",
+          "role": "Developer"
+      }
+  ],
+  "suggest": {
+      "aws/aws-sdk-php": "Required to connect to an Elasticsearch host on AWS (^3.80)"
+  },
+  "autoload": {
+      "psr-4": {
+          "ElasticAwsClient\\": "src"
+      }
+  },
+  "autoload-dev": {
+      "psr-4": {
+          "ElasticAwsClient\\Tests\\": "tests"
+      }
+  },
+  "require": {
+      "php": "^7.2",
+      "elasticsearch/elasticsearch": "^7.3"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^8.4",
+      "orchestra/testbench": "^4.3"
+  },
+  "config": {
+      "bin-dir": "bin"
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "ElasticAwsClient\\ServiceProvider"
+          ]
+      }
+  }
+}
