@@ -33,9 +33,6 @@
           "role": "Developer"
       }
   ],
-  "suggest": {
-      "aws/aws-sdk-php": "Required to connect to an Elasticsearch host on AWS (^3.80)"
-  },
   "autoload": {
       "psr-4": {
           "ElasticAwsClient\\": "src"
@@ -48,6 +45,7 @@
   },
   "require": {
       "php": "^7.2",
+      "aws/aws-sdk-php": "^3.80",
       "elasticsearch/elasticsearch": "^7.3"
   },
   "require-dev": {
