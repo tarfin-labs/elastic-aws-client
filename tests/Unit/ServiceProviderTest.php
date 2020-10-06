@@ -7,6 +7,7 @@ use Orchestra\Testbench\TestCase;
 
 class ServiceProviderTest extends TestCase
 {
+    /** @test */
     public function test_client_is_registered(): void
     {
         (new ServiceProvider($this->app))->register();
@@ -19,6 +20,7 @@ class ServiceProviderTest extends TestCase
         $this->assertSame(9200, $connection->getPort());
     }
 
+    /** @test */
     public function test_configuration_is_published(): void
     {
         (new ServiceProvider($this->app))->boot();
