@@ -44,7 +44,7 @@
       }
   },
   "require": {
-      "php": "^7.3",
+      "php": "^7.3 || ^8.0",
       "aws/aws-sdk-php": "^3.80",
       "elasticsearch/elasticsearch": "^7.3"
   },
