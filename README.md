@@ -13,7 +13,7 @@ The official PHP Elasticsearch client for AWS Elasticsearch Service integrated w
 
 The current version of Elastic AWS Client has been tested with the following configuration:
 
-* PHP 7.3 - 8.0
+* PHP 7.3 - 8.0 - 8.1
 * Elasticsearch 7.x
 * AWS-SDK-PHP ^3.80
 
