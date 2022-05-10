@@ -3,6 +3,9 @@ All notable changes to `elastic-aws-client` will be documented in this file.
 
 ## [Unreleased]
 
+## 2.2.0 - 2022-02-08
+- PHP 8.1 support added.
+
 ## 2.1.0 - 2021-06-03
 - PHP 8 support added.
 
