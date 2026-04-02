@@ -3,6 +3,12 @@ All notable changes to `elastic-aws-client` will be documented in this file.
 
 ## [Unreleased]
 
+## 3.0.0 - 2026-04-02
+- PHP 7.3, 8.0, 8.1, 8.2 support removed.
+- PHP 8.3, 8.4, 8.5 support added.
+- PHPUnit ^11.5|^12.0 support added.
+- Orchestra Testbench ^11.0 (Laravel 13) support added.
+
 ## 2.3.0 - 2023-05-11
 - PHP 8.2 support added.
 
